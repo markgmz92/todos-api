@@ -27,6 +27,9 @@ end
 
 group :test do
   gem 'rspec-rails', '~> 3.9'
+  gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
+  gem 'shoulda-matchers', '~> 4.2'
+  gem 'database_cleaner', '~> 1.8', '>= 1.8.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
