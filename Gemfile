@@ -6,7 +6,7 @@ ruby '2.5.3'
 gem 'rails', '~> 6.0', '>= 6.0.2.1'
 
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'sqlite3', '~> 1.4', '>= 1.4.2'
 
 # Reduces boot times through caching; required in config/boot.rb
